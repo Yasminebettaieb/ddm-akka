@@ -1,6 +1,14 @@
 # ddm-akka
 Akka example and homework code for the "Big Data Systems" lecture.
 
+
+## Project Members
+```
+Yasmine Batteieb (MTR: 3795910)
+Ugur Taysi (MTR: 3806159)
+Seyyed Mostafa Rahimi (MTR: 3800582)
+```
+
 ## Requirements
 - Java >= 9, <= 17
 - Maven Compiler Version >= 3.8.1
