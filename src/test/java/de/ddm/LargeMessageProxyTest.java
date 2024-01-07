@@ -10,7 +10,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.junit.ClassRule;
 import org.junit.Test;
-
 import java.util.Objects;
 
 public class LargeMessageProxyTest {

@@ -11,7 +11,7 @@ import java.nio.charset.Charset;
 public class CommandMaster extends Command {
 
 	@Override
-	int getDefaultPort() {
+    protected int getDefaultPort() {
 		return SystemConfiguration.DEFAULT_MASTER_PORT;
 	}
 

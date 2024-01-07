@@ -8,7 +8,7 @@ import de.ddm.singletons.SystemConfigurationSingleton;
 public class CommandWorker extends Command {
 
 	@Override
-	int getDefaultPort() {
+    protected int getDefaultPort() {
 		return SystemConfiguration.DEFAULT_WORKER_PORT;
 	}
 

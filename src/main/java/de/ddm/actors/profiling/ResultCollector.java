@@ -84,7 +84,6 @@ public class ResultCollector extends AbstractBehavior<ResultCollector.Message> {
 	}
 
 	private Behavior<Message> handle(ResultMessage message) throws IOException {
-		this.getContext().getLog().info("Received {} INDs!", message.getInclusionDependencies().size());
 
 		for (InclusionDependency ind : message.getInclusionDependencies()) {
 			this.writer.write(ind.toString());

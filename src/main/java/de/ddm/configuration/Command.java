@@ -8,7 +8,7 @@ import de.ddm.singletons.SystemConfigurationSingleton;
 
 public abstract class Command {
 
-	abstract int getDefaultPort();
+	protected abstract int getDefaultPort();
 
 	@Parameter(names = {"-h", "--host"}, description = "This machine's host name or IP that we use to bind this application against", required = false)
 	String host = SystemConfigurationSingleton.get().getHost();
